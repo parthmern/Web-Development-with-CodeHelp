@@ -1,0 +1,23 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.container
+{
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row; /*row,rowreverse,column reverse*/
+    flex-wrap: wrap; /*wrapreverse*/
+    gap: 10px;
+
+    justify-content: flex-end; 
+    justify-content: space-evenly;
+}
+
+.box
+{
+    border: 2px solid green;
+    /* margin: 10px ; */
+}

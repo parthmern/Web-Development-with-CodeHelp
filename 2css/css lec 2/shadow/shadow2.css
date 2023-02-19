@@ -1,0 +1,28 @@
+h1
+{
+    text-shadow: 0px 0px 10px red, 3px 5px 2px green;
+}
+
+.box
+{
+    background-color: aqua;
+    color: red;
+    text-align: center;
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px green, -10px -10px 10px red;
+    
+}
+
+#hw
+{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+
+    box-shadow: 0 0 1px green;
+    box-shadow: 0px 0px 0px 1px red; 
+
+}

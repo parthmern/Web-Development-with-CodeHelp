@@ -1,0 +1,33 @@
+/* p
+{
+    position: static;
+} */
+
+#main
+{
+    background-color: blue;
+    height: 100rem;
+    width: 100rem;
+}
+
+
+div
+{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.class2
+{
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+.class1
+{
+    position: fixed;
+}
