@@ -1,0 +1,45 @@
+.container
+{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 1px solid red;
+    display: flex;
+}
+
+.box
+{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border: 2px solid orange;
+    background-color: aqua;
+
+    /* transition: 2s;
+
+    transition-property: all;
+    transition-delay: 2s; */
+
+    /* transition: all 2s ease ; */
+
+    
+
+    /* for cration of own function go inspect element then set it and add cubic-bezzir */
+
+    /* transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 1s; */
+
+    transition: transform 3s ease;
+
+}
+
+.box:hover
+{
+    background-color: brown;
+    transform: scale(2) translate(501px) rotate(360deg);
+
+    
+    
+}
