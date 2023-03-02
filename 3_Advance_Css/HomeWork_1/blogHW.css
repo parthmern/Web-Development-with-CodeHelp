@@ -1,0 +1,104 @@
+*
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+
+}
+
+#wrapper
+{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+    grid-gap: 2% ;
+
+    
+    
+}
+
+.box
+{
+    border: 1px solid green;
+    margin: 5%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#left
+{
+   
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 1fr 3fr;
+    margin: 5%;
+
+    align-items: center;
+    
+}
+
+b{
+    font-size: 25px;
+    
+}
+
+p{
+    font-size: smaller;
+}
+
+.c1 , .c2 , .c3 , .c4, .c5 
+{
+    justify-self: start;
+    gap: 10%;
+}
+
+.c5 
+{
+    align-self: end;
+}
+
+.c1 
+{
+    color: blue;
+    justify-self: stretch;
+
+}
+
+#right
+{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 2fr 3fr;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: grid;
+    
+    margin: 5%;
+
+    align-items: center;
+    
+}
+
+.c11
+{
+    color: rgb(6, 116, 19);
+    justify-self: stretch;
+
+}
+
+.title
+{
+    display: block;
+    /* height: 50px;
+    width: 628px; */
+    text-align: center;
+    font-size: 2rem;
+}
