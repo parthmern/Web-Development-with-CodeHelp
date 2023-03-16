@@ -1,0 +1,48 @@
+#wrapper
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button
+{
+    
+    
+    
+    text-align: center;
+    padding: 0.8rem  2.3rem;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 18px;
+    box-shadow: 5px 5px 7px 0px rgb(52, 50, 50);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    
+   
+}
+
+.button::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: 0.3s linear;
+}
+
+.button:hover:before
+{
+    transform: translateX(0%);
+    z-index: -1;
+}
+
