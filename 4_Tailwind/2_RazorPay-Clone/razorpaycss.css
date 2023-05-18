@@ -1,0 +1,33 @@
+body
+{
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+#companiesList
+{
+    /* animation: infinite;
+    animation-duration: 10s;
+    animation-name: moveCompany; */
+    /* animation-timing-function: linear; */
+
+    animation: 10s infinite linear moveCompany;
+}
+
+@keyframes moveCompany
+{
+    0%
+    {
+        top:0%;
+    }
+    100%
+    {
+        top: -50%;
+    }
+}
+
+#ctaSection
+{
+    background-size: 100% 100%;
+    
+}
