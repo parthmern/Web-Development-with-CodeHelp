@@ -1,0 +1,15 @@
+/* write your css here */
+.main-div{
+    height: 100vh;
+    width: 70%;
+    
+    background-color: rgb(70, 255, 233);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+    flex-direction: column;
+}
+

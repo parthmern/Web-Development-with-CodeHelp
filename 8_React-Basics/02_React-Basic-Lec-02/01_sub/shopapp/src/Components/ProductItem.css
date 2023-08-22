@@ -1,0 +1,11 @@
+.product-item__description{
+    color: rgb(0, 0, 0);
+}
+
+.btn{
+    pointer-events: all;
+    color: rgb(0, 0, 0);
+    background-color: coral;
+    border-radius: 10px;
+    padding: 5px 5px;
+}

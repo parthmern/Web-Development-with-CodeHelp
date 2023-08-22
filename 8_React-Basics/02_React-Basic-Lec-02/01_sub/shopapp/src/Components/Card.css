@@ -1,0 +1,19 @@
+.cardproduct-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: chartreuse;
+    
+}
+
+.cardproducts{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    width: 100%;
+   
+}
