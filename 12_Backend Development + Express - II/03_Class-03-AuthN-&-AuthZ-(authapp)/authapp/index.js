@@ -5,7 +5,9 @@ app.use(express.json());
 
 // cookie parser - 
 const cookieParser = require("cookie-parser");
-app.use(cookieParser());
+app.use(cookieParser());   
+
+// if not work then app.use(cookieParser);
 
 require("./config/database").connect();
 
